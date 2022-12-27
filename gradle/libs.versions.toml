@@ -1,0 +1,27 @@
+[versions]
+androidGradlePlugin = "7.3.1"
+androidxCore = "1.9.0"
+junit = "4.13.2"
+kotlin = "1.7.21"
+androidxTest = "1.5.0"
+androidxTestExt = "1.1.4"
+androidxTestRunner = "1.5.1"
+androidxTextEspresso = "3.5.0"
+appcompat = "1.5.1"
+mdc = "1.7.0"
+
+[libraries]
+androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "androidxCore" }
+androidx-test-core = { module = "androidx.test:core", version.ref = "androidxTest" }
+androidx-test-ext-junit = { module = "androidx.test.ext:junit", version.ref = "androidxTestExt" }
+androidx-test-runner = { module = "androidx.test:runner", version.ref = "androidxTestRunner" }
+androidx-test-espresso = { module = "androidx.test.espresso:espresso-core", version.ref = "androidxTextEspresso" }
+junit = { module = "junit:junit", version.ref = "junit" }
+androidx-appcompat-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+mdc = { module = "com.google.android.material:material", version.ref = "mdc" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
+android-library = { id = "com.android.library", version.ref = "androidGradlePlugin" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">android-recruit-project</string>
+    <string name="status_incubating">募資中</string>
+    <string name="status_success">募資成功</string>
+    <string name="status_published">已開課</string>
+    <string name="non_published_label">%1$d / %2$d 人</string>
+    <string name="proposalDueTime">倒數 %d 天</string>
 </resources>
